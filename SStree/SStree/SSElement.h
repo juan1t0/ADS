@@ -17,11 +17,13 @@ public:
 	SSElement* parent;
 	bool isLeaf;
 	bool wasReinsert;
+	distance dist;
 
 	SSElement();
 	~SSElement();
 
 	virtual void includin(dato&) {}
 	virtual bool addDato(dato&) {}
+	virtual void sort(){}
 };
 

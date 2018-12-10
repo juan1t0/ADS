@@ -12,6 +12,6 @@ public:
 	SSLeaf();
 	~SSLeaf();
 
+	void sort();
 	bool addDato(dato&);
 };
-
