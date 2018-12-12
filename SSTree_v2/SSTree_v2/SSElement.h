@@ -5,7 +5,6 @@
 class SSElement
 {
 public:
-	un_int height;
 	real radius;
 	vec_flot centroid;
 	vec_flot margin;
