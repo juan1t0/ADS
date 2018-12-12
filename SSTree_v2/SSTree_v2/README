@@ -1,0 +1,2 @@
+execute:
+  sstree.exe < YearPredictionMSDDataSet.txt
