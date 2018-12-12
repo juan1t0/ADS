@@ -5,18 +5,8 @@
 
 using namespace std;
 
-int cont(string &s) {
-	int c = 0;
-	tam ss = s.size();
-	for (tam i = 0; i < ss; ++i) {
-		if (s[i] == ',')++c;
-	}
-	return c;
-}
-
 int main() 
 {
-	//srand(time(NULL));
 	int cant = 515345, dim = 91;
 	string::size_type sz;
 	vector<vec_flot> datos(cant);
